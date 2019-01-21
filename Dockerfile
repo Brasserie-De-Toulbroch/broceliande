@@ -7,6 +7,7 @@ RUN apt-get update && apt-get install -y \
 	cpio \
 	file \
 	gcc \
+	gettext \
 	g++ \
 	git \
 	gzip \
