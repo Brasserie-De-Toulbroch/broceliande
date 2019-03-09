@@ -1,6 +1,7 @@
 # buildroot-rpi3
 
-To build the RPI3 distribution and retrieve the sdcard image:
+To build the RPI3 distribution for `Brasserie De Toulbroc'h` and retrieve the
+sdcard image:
 
 ````
 $ sh build.sh

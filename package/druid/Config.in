@@ -1,0 +1,9 @@
+config BR2_PACKAGE_DRUID
+	bool "druid"
+	depends on BR2_INSTALL_LIBSTDCPP
+	depends on BR2_PACKAGE_QT5BASE
+	depends on BR2_PACKAGE_QWT
+	help
+	  Druid
+
+	  https://github.com/Brasserie-De-Toulbroch/druid 
