@@ -1927,6 +1927,7 @@ menu "Text editors and viewers"
 endmenu
 
 menu "Brasserie de Toulbroc'h"
+	source "package/bard/Config.in"
 	source "package/druid/Config.in"
 endmenu
 

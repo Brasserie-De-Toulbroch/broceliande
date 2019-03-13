@@ -28,5 +28,8 @@ WORKDIR /root/buildroot-2017.08
 COPY users.tables users.tables
 COPY defconfig configs/embsys_defconfig
 COPY busybox.config busybox.config
+COPY package/Config.in package/Config.in
+COPY package/bard package/bard
+COPY package/druid package/druid
 
 RUN make embsys_defconfig && make
