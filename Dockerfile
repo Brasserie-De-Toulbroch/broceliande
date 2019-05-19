@@ -32,4 +32,6 @@ COPY package/Config.in package/Config.in
 COPY package/bard package/bard
 COPY package/druid package/druid
 
+RUN echo "dtoverlay=w1-gpio, gpiopin=4" >> package/rpi-firmware/config.txt
+
 RUN make embsys_defconfig && make
