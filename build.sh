@@ -9,6 +9,7 @@ rm -f sdcard.img
 
 # docker build
 docker rmi $IMAGE:$TAG
+mkdir -p dl
 docker build -t $IMAGE:$TAG .
 
 # retrieve rpi3 image
