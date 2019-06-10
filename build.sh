@@ -1,8 +1,8 @@
 #! /bin/bash
 
 IMAGE=brasserie-de-toulbroch
-TAG=buildroot-rpi3
-NAME=brasserie-de-toulbroch-buildroot-rpi3
+TAG=broceliande
+NAME=brasserie-de-toulbroch-broceliande
 
 # mr proper
 rm -f sdcard.img

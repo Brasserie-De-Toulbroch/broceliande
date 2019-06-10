@@ -1,4 +1,4 @@
-# buildroot-rpi3
+# Broceliande
 
 To build the RPI3 distribution for `Brasserie De Toulbroc'h` and retrieve the
 sdcard image:

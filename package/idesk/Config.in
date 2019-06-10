@@ -1,0 +1,5 @@
+config BR2_PACKAGE_IDESK
+	bool "idesk"
+	depends on BR2_PACKAGE_IMLIB2
+	help
+	  idesk

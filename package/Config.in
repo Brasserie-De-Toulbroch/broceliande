@@ -1929,6 +1929,7 @@ endmenu
 menu "Brasserie de Toulbroc'h"
 	source "package/bard/Config.in"
 	source "package/druid/Config.in"
+	source "package/idesk/Config.in"
 endmenu
 
 endmenu

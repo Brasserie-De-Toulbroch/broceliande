@@ -35,5 +35,6 @@ COPY busybox.config busybox.config
 COPY package/Config.in package/Config.in
 COPY package/bard package/bard
 COPY package/druid package/druid
+COPY package/idesk package/idesk
 
 RUN make druid_defconfig && make
