@@ -1,0 +1,11 @@
+table Icon
+  Caption:
+  ToolTip.Caption:
+  Icon: /root/druid.png
+  Width: 64
+  Height: 64
+  X: 1366
+  Y: 826
+  Command[0]: appcommand
+end
+
