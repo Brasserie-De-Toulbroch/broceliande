@@ -6,6 +6,6 @@ table Icon
   Height: 64
   X: 1366
   Y: 826
-  Command[0]: appcommand
+  Command[0]: druid -t $(cd /sys/bus/w1/devices && find 2*)
 end
 
